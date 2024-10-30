@@ -1,0 +1,136 @@
+/**
+ * Coupon Maker Plugin
+ * 
+ * by Bishoy A.
+ * hi@bishoy.me
+ */
+
+.cg-copy {
+    margin-bottom: 4px;
+}
+.cg-copy {
+    position: relative;
+}
+.cg-smooth-slow {
+      transition:  all 0.55s ease 0s;
+	  -webkit-transition:  all 0.55s ease 0s;
+	  -moz-transition:  all 0.55s ease 0s;
+	  -o-transition:  all 0.55s ease 0s;
+}
+
+.cg-copy {
+    width: 190px;
+    height: 40px;
+    display: inline-block;
+    line-height: 32px;
+    background-color: #F45435;
+    position: relative;
+    margin-bottom: 12px;
+    padding: 3px;
+}
+
+.cg-copy > a {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.cg-copy > a > span.peel {
+    width: 15px;
+    height: 100%;
+    right: 20px;
+    left: auto;
+    top: 0px;
+    background: linear-gradient(to right, #FF7455 0px, #F45435 60%, #FF7455 100%) repeat scroll 0% 0% transparent !important;
+    box-shadow: -5px 0px 10px 2px rgba(0, 0, 0, 0.1), 5px 0px 10px 2px rgba(0, 0, 0, 0.05) !important;
+    z-index: 5;
+}
+.cg-copy > a > span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 13px;
+    left: 0px;
+    top: 0px;
+    text-align: right;
+}
+.cg-smooth-fast {
+	transition:  all 0.22s ease 0s;
+	  -webkit-transition:  all 0.22s ease 0s;
+	  -moz-transition:  all 0.22s ease 0s;
+	  -o-transition:  all 0.22s ease 0s;
+}
+
+.cg-copy > a > span.cg-copy-cover {
+    width: 82%;
+}
+
+.cg-copy-cover, .cg-copy-cover * {
+    color: #FFF;
+}
+
+.cg-copy-cover {
+    opacity: 1;
+    background-color: #F45435;
+    border: 1px dashed #CCC;
+    z-index: 3;
+}
+
+.cg-copy-code {
+    opacity: 1;
+    z-index: 1;
+    border: 1px dashed #F45435;
+    background-color: #FEF289;
+	padding: 0px 10px 0 0;
+	transition:  all 0.55s ease 0s;
+	-webkit-transition:  all 0.55s ease 0s;
+	-moz-transition:  all 0.55s ease 0s;
+	-o-transition:  all 0.55s ease 0s;
+}
+
+.cg-copy-code input {
+	background: transparent;
+	background: transparent;
+	border: none;
+	color: #F45435;
+	text-align: right;
+}
+
+.cg-copy>a:hover>span.cg-copy-cover {
+  background-color: #FF7455;
+}
+
+.cg-copy-cover strong {
+    display: block;
+    overflow: hidden;
+    line-height: 32px;
+    padding: 0px 24px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    /*font-size: 14px;
+    font-family: Helvetica Neue,sans-serif;*/
+}
+
+.cg-copy.cg-deal .cg-copy-cover strong {
+	text-align: center;
+}
+
+.cg-copy.cg-deal {
+    background-color: #259FC4 !important;
+}
+
+.cg-copy.cg-deal > a > span.cg-copy-cover {
+    background-color: #259FC4;
+    width: 100%;
+}
+
+.cg-copy.cg-deal>a:hover>span.cg-copy-cover {
+	background-color: #45BFE4;
+	transition:  all 0.55s ease 0s;
+	-webkit-transition:  all 0.55s ease 0s;
+	-moz-transition:  all 0.55s ease 0s;
+	-o-transition:  all 0.55s ease 0s;
+}
